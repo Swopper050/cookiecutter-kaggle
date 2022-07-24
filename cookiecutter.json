@@ -2,6 +2,8 @@
   "full_name": "Bram de Wit",
   "email": "bram@witoos.nl",
   "github_username": "Swopper050",
-  "project_name": "Python Boilerplate",
-  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}"
+  "kaggle_dataset": "todo",
+  "competition_slug": "something like: uwm",
+  "repository_name": "kaggle-{{ cookiecutter.competition_slug.lower().replace(' ', '-') }}",
+  "project_slug": "{{ cookiecutter.competition_slug.lower().replace(' ', '_').replace('-', '_') }}"
 }

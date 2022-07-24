@@ -1,0 +1,16 @@
+input/*/*
+!input/.gitkeep
+
+.env/
+env/
+venv/
+.venv/
+
+__pycache__
+
+models/*
+!models/.gitkeep
+
+submission.csv
+
+lewut.py
